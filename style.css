@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body {
+    background-color: #f0f0f0;
+}
+.banner{
+    width: 100%;
+    height: 71vh;
+    background-image: url(/image/home_amended_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text{
+    text-align: right;
+    padding-top: 150px;
+    padding-right: 40px;
+    font-weight: bolder;
+    color: black;
+}
+.navbar{
+    background-color: white;
+}
+.left-navbar{
+    padding: 7px;
+}
+
+.right-navbar-up{
+    padding: 0px 60px;
+}
+.right-navbar-up  tr td {
+    padding: 0px 30px;
+    border-right: 1px solid #b60251;
+}
+.right-navbar-down tr td {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.right-navbar-down tr td:hover{
+    color: #b60251;
+}
+.section-1{
+    display: flex;
+    padding: 100px 250px;
+}
+.section-1-text{
+    margin-top: 50px;
+    padding-top: 90px;
+    padding-left: 30px;
+    background-color: white;
+}
+.section-1-text h1{
+    font-size: 38px;
+    font-weight: bolder;
+}
+.section-1-text h6{
+    padding-top: 40px;
+    font-size: 18px;
+}
+.arroy{
+    padding-top: 30px;
+    display: flex;
+}
+.arroy i{
+    padding: 5px 10px;
+    border: 2px solid #b60251;
+    margin-right: 20px;
+}
+.arroy i:hover{
+    background-color: #b60251;
+    color: white;
+    cursor: pointer;
+}
+.arroy p{
+    font-size: 15px;
+}
+.arroy p:hover{
+    color: #b60251;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Product-range{
+    width: 100%;
+    height: 65vh;
+    background-color: white;
+    padding: 0px 170px;
+}
+.Product-range h1{
+    text-align: center;
+    font-size: 37px;
+    padding-top: 20px;
+    font-weight: bolder;
+    padding-bottom: 55px;
+}
+.products {
+  display: flex;
+  padding-top: 20px;
+}
+.products h5 {
+    font-size: 17px;
+    font-weight: bolder;
+}
+.products i{
+    padding-left: 120px;
+}
+.range{
+    display: flex;
+}
+.blocks{
+    padding: 0px 20px;
+}
+.image-block{
+    width: 110%;
+    height: 32vh;
+}
+.section-4-main{
+    display: flex;
+    padding: 80px 180px;
+}
+.section-4{
+    display: inline;
+    
+}
+.section-4-text {
+    margin-top: 50px;
+    padding-top: 90px;
+    padding-left: 30px;
+    background-color: white;
+}
+.section-4-text h1{
+    font-size: 38px;
+    font-weight: bolder;
+}
+.section-4-text h6{
+    padding-top: 40px;
+    font-size: 18px;
+}
+.section-4-left{
+    padding-right: 30px;
+}
+.section-4-right {
+    padding-left: 30px;
+}
+.section-5{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    padding: 30px 150px;
+}
+.section-5-header{
+    display: flex;
+}
+.section-5-header-left h1 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+.section-5-header-right {
+    margin-left: 680px;
+}
+.section-5-block{
+    display: flex;
+    padding-top: 50px;
+}
+.products-5{
+    display: inline;
+    padding-top: 20px;
+}
+.products-5 p {
+    font-size: 19px;
+    font-weight: bold;
+    color: #b60251;
+}
+.section-5-image{
+    width: 300px;
+    height: auto;
+}
+.main-footer{
+    width: 100%;
+    height: 60vh;
+    padding: 80px 150px;
+    background-color: #2d2d2d;
+    color: white;
+}
+.footer{
+    display: flex;
+}
+.footer-1 {
+    padding: 0px 50px;
+}
+.footer-1 i {
+    font-size: 26px;
+}
+.footer-1 .bi {
+    padding: 25px 5px; 
+}
+.footer-1 .bi:hover {
+    transition: color 700ms linear;
+    color: #b60251;
+    cursor: pointer;
+}
+.footer-1 address {
+    font-size: 18px;
+}
+.footer-1 p {
+    font-size: 17px;
+}
+.footer-1 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.footer-last{
+    display: flex;
+    text-align: center;
+    padding: 15px 20px;
+}
+.copyright-left{
+    font-size: 18px;
+}
+.copyright-right p {
+    margin-left: 600px;
+    font-size: 18px;
+}
